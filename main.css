@@ -84,3 +84,7 @@ body {
     padding: 8px 16px 8px 16px;
     margin-top: 12px;
 }
+
+.button:hover {
+    background-color: #e4d9fe;
+}
