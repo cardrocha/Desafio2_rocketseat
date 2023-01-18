@@ -9,19 +9,19 @@ function alteraImg() {
 
     // substituir a imagem
     if (html.classList.contains('img360')) {
-        //se tiver light mode, adicionar a imagem light
+        //se tiver img360, troca a imagem
         img.setAttribute("src", "./img/sofa.png");
     } else {
-        //se tiver sem light mode, manter a imagem normal
+        //se não, manter a imagem normal
         img.setAttribute("src", "./img/sofa.gif");
         
     }
 
     if (html.classList.contains('img360')) {
-        //se tiver light mode, adicionar a imagem light
+        //se tiver img360, troca a imagem
         img360.setAttribute("src", "./img/botaogif.png");
     } else {
-        //se tiver sem light mode, manter a imagem normal
+        //se não, manter a imagem normal
         img360.setAttribute("src", "./img/cancela.png");
 
     }
